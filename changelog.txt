@@ -1,0 +1,282 @@
+v1.19 BETA (Newest Version): <---- You are here
+- Fixed a bug with server protocols being randomly assigned
+- Added support for more than 20 players (50 tested, 256 is the current limit)
+- Added a small change to how errors are processed
+- Changed the amount of affinity a client has with a CPU, as well as allowing FSR integration
+
+<A News bit, but now that BITL has left, the two of us at FOX AND CARROT STUDIOS will be working on it part time!>
+<Also, Hyena says hi>
+---------------------------
+THE FINAL UPDATE
+---------------------------
+v1.18.1 (Recommended Version): 
+- Fixed an issue with the Paper Bag's texture.
+- Fixed a bug where 2011 freezes when you connect to a server.
+- Merged maps with 1.16.2.
+- Added fake 2006 and 2007 clients from 1.16.2.
+- Added Mid 2008.
+
+OR
+
+v1.16.2 (Legacy Version): 
+- Fixed an issue with the Paper Bag's texture.
+- Fixed RCE issues.
+- Copied over mid-2008 client network changes from 1.18 for mid-2008 clients.
+- Added 3D avatar preview feature from 1.18 as a client. Note: This version is based off of late 2009 instead of early 2011 due to compatability issues.
+- Merged maps with 1.18.1.
+- Added the better 2008 client from 1.18.
+- Undid the main menu changes for clients.
+-----------------------------
+v1.18:
+- Added the ability to wear T-Shirts, Shirts, Pants, Faces, and Heads.
+- Added 7 new hats, and removed 1 hat.
+- Fixed trustcheck bypasses not working on modern clients.
+- Added a new scoreboard to 2011.
+- The join script is now global.
+- Changed the design of the Launcher.
+- Added the RBXLegacy SDK to the Launcher. Use the "sdk" command to launch it.
+- Changed 2008 to be less laggy in movement, and added a newer 2009.
+- There is a reset command in all clients. Type "!!!reset" to use.
+- Documentation has been added for clientinfo.
+- Removed the URI function due to it being non-functional during development.
+- Added a 3D Preview window which shows a full 3D view of your player.
+- Renamed the configuration file of the launcher. YOU MAY NEED TO RECONFIGURE YOUR CHARACTER IF YOU ARE UPDATING FROM A LOWER VERSION.
+- Added a Server Preferences menu.
+- You no longer have to put "rbxlegacy" before every console command!
+v1.17 Final:
+- Added 2012.
+v1.16.1:
+- Fixed a bug where your ID becomes your name. 
+v1.16:
+- Replaced Mid-2009 with Late-2009.
+- Replaced Late-2008 with Mid-2008.
+- Clientinfo files and the config file now use dual-band encryption.
+- The launcher now verifies files before launching them.
+- Added the external IP address and a URI generator to the Server Information window.
+- Added a URI installer and loader into the launcher.
+v1.15.2:
+- Made config file saving use encryption.
+- Fixed a bug where you could paste images on the console.
+- Fixed a bug where you could remove output text.
+v1.15.1:
+- Added 25 new hats.
+- Added a "Reset Hats" button to the hats menu.
+- Added a player limit setting. Players will be kicked from the server if the count exceeds this limit.
+- The launcher now saves your settings automatically when you:
+1. Join a server
+2. Start a server
+3. Start a Solo game
+4. Launch Studio
+5. Close the launcher
+- Improved the netcode for 2009 clients.
+- Added client name to the title for each client.
+v1.15:
+- Added the CMD!
+- Fixed "invisible hats"
+- Added body color customization!
+- The launcher now supports .NET 2.0 which allows RBXLegacy to be ran on Windows 2000.
+- Fixed a bug with the launcher where there would be multiple of the same hats.
+- Brought back the Report button.
+- Changed 2009 to a mid-2009 client (WASD works this time!)
+- Added a "CHANGELOG" tab, so you can see this in the launcher!
+- Character customization has been rewritten to be compatable with more clients.
+- Improved the character customization UI.
+- Did a complete overhaul to the ClientInfo system.
+- Removed Character Outfit IDs and Random Body Colors.
+- Redid the 2010 health bar.
+- Added Late-2009 as a seperate client. 
+v1.14.1:
+- Fixed an issue where the Random Body Color Patterns checkbox did not function properly.
+- Changed 2009 to an April 2009 client.
+- Added the Elemental Helms.
+- Added the RBXLegacy Visor.
+- Fixed Sword Fight on the Heights I,II, and III.
+- Fixed Ultimate Paintball (Credits to PacMania67)
+v1.14:
+- 2009 now uses the Mid-2009 client.
+- 2009 now uses Character Customization!
+- 2010 now uses the November 2010 client.
+- Fixed a crash with the launcher.
+- Reworked the Play Solo functionality.
+- Added the following maps:
+2006 Starter Place
+2005 Bridge It
+2005 Bridge It 2
+- Renamed Crossroads (2006) to 2006 Crossroads.
+- Renamed Starter Place to 2006 Starter Place 2.
+- Fixed a bug where the id changes AFTER the client loads if Local Play is enabled.
+- Changed the way Character Customization works.
+v1.13.2:
+- Added accurate player physics and sound effects to the fake 2006 and fake 2007 clients (Credits to Archway)
+- Added a Server Info dialog for the launcher.
+v1.13.1:
+- Reverted 2011 and 2009 to the previous version.
+- Redid security.
+- Added the following maps to the default map selection:
+Welcome to ROBLOX
+Timmy and the Killbots
+Santa's Winter Stronghold
+ThrillVille
+- Replaced Ultimate Paintball (2006) with a fixed Ultimate Paintball.
+v1.13:
+- Removed the "Report" button on all clients.
+- Switched out the late-2009 client with a mid-2009 client.
+- Switched out the RBXPri 2011 client with a early 2011 client.
+- Improved security on all clients.
+- You can no longer join 2006 and 2007 servers with the Mid-2008 client.
+v1.12.4:
+- Added a "Play Solo" button on the launcher.
+v1.12.3:
+- Fixed a message appearing while using mid-2008.
+v1.12.2:
+- The 2006 and 2007 clients are now OpenGL only.
+v1.12.1:
+- Fixed healthbars not showing up on all clients.
+- The 2010 client now has a health bar! 
+v1.12:
+- Fixed an error on the 2008 description.
+- Rewrote scripts on all clients.
+- "Tools" and "Insert" are now hidden.
+- Added fake 2006 and 2007 clients!
+v1.11:
+- Added an improved Play Solo script (thanks to Nukley from the RBXLegacy Discord)
+- Improved performance on clients later than Mid-2008.
+- All clients now allow for name and ID changes.
+- Fixed errors relating to Extranet and Trustcheck on all clients.
+v1.10:
+- 2008 now is a Level 7 client!
+- Character customization is now enabled in 2008.
+- Improved networking on clients (mainly Mid-2008).
+v1.9.1:
+- Fixed an issue with Mid-2008.
+v1.9:
+- Added a offline character customizer mode that doesn't require the ROBLOX servers to use.
+- Mid-2008 is now the default client.
+- You can now launch a server in NoGraphics mode.
+v1.8.3:
+- Added a version switcher for the hats. Change this if you experience the hats not showing up in-game.
+- Did more stability fixes with the launcher.
+- Added more options to the SAVED tab.
+- Added a message to the Character Customizer about the color hash
+v1.8.2:
+- Fixed a bug where the disconnection message wouldn't trigger on Mid-2008-2010 clients.
+- Added a RESET CONFIG button to the launcher
+- Made it so the launcher will not insert a 0 on some textboxes.
+- You can now save your favorite servers and ports to the new SAVED tab!
+v1.8.1:
+- Added a character customization option.
+- Made the launcher even more stable.
+- Added missing skybox textures to the Mid-2008 client
+v1.8.0:
+- Added an option to change the port.
+- Did a full rewrite of the scripts used in 2008-2010.
+- Added a Mid-2008 client.
+- Added an OPTIONS tab to the launcher.
+- You can now change your ID number.
+- Fixed the weapon loadout in Nuke The Whales.
+- Fixed a bug that crashes the launcher if you put nothing into some textboxes.
+- Fixed a bug that crashes the launcher if you cancel launching the game.
+v1.7.2:
+- Fixed a bug that disconnects the player if they use 2008 or other older clients.
+- Clients now use their own CSMPFunctions.lua file for the addition of modifications for each individual client.
+- Fixed up Crossroads (2006).
+- Added Nuke the Whales.
+v1.7.1 Final:
+- Fixed the tools on a few places.
+- Fixed the skybox textures not loading up on a few places in the 2011 client.
+v1.7 Final:
+- Updated the launcher to allow players to use their normal ROBLOX outfits. If you cannot connect to any server after disabling this, uncheck the "Use Character Outfit IDs" box on the launcher.
+- The "Start ROBLOX Studio" button now loads the currently selected map.
+- Added a "Clientinfo Editor" to assist with the creation of new clients.
+- Fixed a bug with the launcher that would save name suffixes and generated IDs while in Local Play mode.
+- Added a warning if you choose a client that loads assets online (i.e 2010).
+- Changed the fonts/textures back to the original versions from each client.
+- Fixed a bug with the launcher where Local Play mode would be on ALL the time, even when disabled.
+- Local Play mode's generated player names have been removed due to some issues.
+- The config file must now be saved manually.
+- The selected map is now saved into the config.
+- Re-added the 2011 client (it uses the RBXPri client now!)
+- Changed ROBLOX HQ to the 2007 version.
+- Renamed "Sword Fights on The Heights" to "Sword Fight on The Heights IV"
+- Added the following maps:
+Ultimate Build
+Crossroads (2006)
+ROBLOX HQ (2007)
+Telamons Big World
+Sword Fight on the Heights I-III
+Ultimate Paintball (2006)
+v1.6.1:
+- Had to remove the 2011 client due to some issues with some places.
+- Added a 2010 client to make up for above.
+v1.6:
+- Added a 2011 client.
+v1.5.3 Final:
+- Added a clientinfo.txt option to disable the "Local Play" option on the launcher.
+- Fixed several bugs with the launcher.
+- Improved player ID randomization on the launcher.
+- The launcher no longer closes when you launch the game by default.
+v1.5.2:
+- Fixed the "Local Play" option being availible to clients without player custom ID support.
+v1.5.1:
+- Added a "Local Play" mode to the Start server page of the launcher, allowing you to spawn multiple players in on a local server.
+- Added a "SELECTED MAP" label.
+v1.5:
+- Added a FFA version of ROBLOX Shootout 2.
+- Added the following maps:
+Community Construction
+Stairway to Heaven
+Starter Place
+Dodge the Teapots
+- Modified the launcher extensively:
+Added a way to choose between multiple ROBLOX clients.
+Added a Player Name dialog for clients that support player names.
+Fixed a bug where the launcher wouldn't save the ID on launch.
+Modified the user interface.
+- Added a late-2009 client.
+- Discontinued the RBXLegacy batch launcher.
+v1.4.2:
+- Replaced all malicious DLLs with the original versions.
+For more info, check the blog post here: http://gamejolt.com/games/rbxlegacy/195327/devlog/downloads-hidden-for-the-time-being-nsuabuwh
+v1.4.1:
+- Made it so the player's ID doesn't change if you reconnect to the server.
+You can regenerate your ID if you have any problems connecting to a server via the Launcher.
+- Made it so you can view your ID via the launcher.
+- Added a "Save Config" button.
+- Updated ROBLOX Shootout 2 to have a scoreboard.
+v1.4:
+- Replaced the 2008-style font with a 2006-style font.
+- Added a toggle switch for body colors to the launcher.
+- Added a random player ID system to the launcher.
+- Added a ROBLOX "R" T-Shirt on the characters and replaced the 2008 face with the 2006 face.
+v1.3:
+- Added a randomized player color system.
+This uses "color patterns" which include:
+Random Colors,
+"Team outfit" style,
+"Shirt and pants with sleeves" style,
+"Shirt and pants without sleeves" style,
+v1.2.1:
+- Removed the SETTINGS tab due to issues with the client.
+If you want to edit graphics settings, go into ROBLOX Studio and go to Tools->Settings and then go to Rendering.
+- Added one of my own levels, ROBLOX Shootout 2!
+- Disabled the "FPS Manager" by default.
+v1.2:
+- Added a "SETTINGS" tab to the launcher that has options for graphics and performance.
+- The Launcher now loads and saves a configuration file.
+v1.1.2:
+- Fixed the skybox on Sword Fights on the Heights, Rocket Arena, and Yorick's Resting Place.
+- Fixed a bug where the Launcher would duplicate names of maps in the map list.
+- The Launcher will now list the current version of RBXLegacy.
+v1.1.1:
+- Fixed Sword Fights on the Heights, Happy Home in Robloxia, and Crossroads.
+- Fixed a bug where the entire map list would disappear if you selected the options on top on the launcher.
+- Removed Winter Rocket Arena as it is a non-ROBLOX-made level.
+v1.1:
+- Added a new launcher.
+- Added a CHANGLOG section to the README.
+- Removed both the Nuke The Whales and Cloud City levels due to since both are non-functioning.
+- Changed the directories for some files.
+v1.0.1:
+- Updated the README to include information about Regions.
+v1.0:
+- Release
